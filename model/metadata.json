@@ -1,0 +1,63 @@
+{
+  "model_name": "Gradient Boosting",
+  "threshold": 0.2170185252256497,
+  "input_columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges",
+    "tenure_group"
+  ],
+  "numeric_columns": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_columns": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "tenure_group"
+  ],
+  "target": "Churn",
+  "class_mapping": {
+    "Nao churn": 0,
+    "Churn": 1
+  },
+  "test_metrics_tuned_threshold": {
+    "Cenario": "Threshold ajustado 0.217",
+    "Accuracy": 0.7178393745557925,
+    "Precision": 0.4823348694316436,
+    "Recall": 0.839572192513369,
+    "F1-Score": 0.6126829268292683,
+    "AUC-ROC": 0.839915152895621
+  }
+}
