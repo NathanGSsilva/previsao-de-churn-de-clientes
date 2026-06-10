@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Materiais originais da P1/P2 mantidos localmente, mas fora do repositorio final
-atividade p2.pdf
-trabalho da p1/
+# Arquivos locais de apoio/entrega
+LINKS_ENTREGA_MOODLE.txt
+ROTEIRO_VIDEO_FALA.txt
+video/
