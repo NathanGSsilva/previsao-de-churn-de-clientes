@@ -6,7 +6,7 @@ Projeto avaliativo P2 da disciplina, continuando a P1 com melhorias no notebook,
 
 - Notebook no Google Colab: https://colab.research.google.com/drive/1o-zirN4y6HbMgnEoRvQgthzbLdPgmqhG?usp=sharing
 - Repositorio GitHub: https://github.com/NathanGSsilva/previsao-de-churn-de-clientes
-- App publicado no Streamlit: https://previsao-de-churn-de-clientes-cqvmgvmekvzrrk83gchdng.streamlit.app/
+- App publicado no Streamlit: https://previsao-de-churn-de-clientes-cqvmgymekvzrrk83gchdng.streamlit.app
 
 ## Integrantes
 
@@ -71,29 +71,24 @@ Foram usadas:
 - Curva ROC
 - Curva precision-recall
 
-Os arquivos CSV em `reports/` guardam as tabelas finais de comparacao, validacao cruzada, teste, feature importance e coeficientes da Regressao Logistica.
+As metricas e interpretacoes finais estao documentadas no notebook atualizado e no relatorio em PDF.
 
 ## Estrutura
 
 ```text
 .
-├── app.py
-├── requirements.txt
-├── README.md
-├── data/
-│   └── dataset.csv
-├── model/
-│   ├── modelo_final.joblib
-│   └── metadata.json
-├── notebooks/
-│   ├── notebook_p1_original.ipynb
-│   └── notebook_atualizado.ipynb
-├── reports/
-│   ├── relatorio_atualizado.pdf
-│   └── arquivos de metricas em CSV
-└── src/
-    ├── train_model.py
-    └── generate_report.py
+|-- app.py
+|-- requirements.txt
+|-- README.md
+|-- data/
+|   `-- dataset.csv
+|-- model/
+|   |-- modelo_final.joblib
+|   `-- metadata.json
+|-- notebooks/
+|   `-- notebook_atualizado.ipynb
+`-- reports/
+    `-- relatorio_atualizado.pdf
 ```
 
 ## Como executar
@@ -104,18 +99,6 @@ Instale as dependencias:
 pip install -r requirements.txt
 ```
 
-Treine o modelo e gere os arquivos de metricas:
-
-```bash
-python src/train_model.py
-```
-
-Gere o relatorio atualizado:
-
-```bash
-python src/generate_report.py
-```
-
 Execute o app:
 
 ```bash
@@ -124,9 +107,9 @@ streamlit run app.py
 
 ## Deploy
 
-O app deve ser publicado no Streamlit Community Cloud a partir do repositorio publico no GitHub.
+O app foi publicado no Streamlit Community Cloud a partir do repositorio publico no GitHub.
 
-Link do app publicado: https://previsao-de-churn-de-clientes-cqvmgvmekvzrrk83gchdng.streamlit.app/
+Link do app publicado: https://previsao-de-churn-de-clientes-cqvmgymekvzrrk83gchdng.streamlit.app
 
 ## Limitacoes
 
