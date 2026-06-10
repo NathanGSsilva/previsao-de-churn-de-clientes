@@ -120,7 +120,7 @@ streamlit run app.py
 
 O app deve ser publicado no Streamlit Community Cloud a partir do repositorio publico no GitHub.
 
-Link do app publicado: substituir aqui pelo link gerado no Streamlit Community Cloud.
+Link do app publicado: https://previsao-de-churn-de-clientes-cqvmgymekvzrrk83gchdng.streamlit.app
 
 ## Limitacoes
 
