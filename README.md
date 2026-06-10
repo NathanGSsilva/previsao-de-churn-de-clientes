@@ -2,6 +2,12 @@
 
 Projeto avaliativo P2 da disciplina, continuando a P1 com melhorias no notebook, modelo salvo, relatorio atualizado e aplicacao em Streamlit.
 
+## Links da entrega
+
+- Notebook no Google Colab: https://colab.research.google.com/drive/1o-zirN4y6HbMgnEoRvQgthzbLdPgmqhG?usp=sharing
+- Repositorio GitHub: https://github.com/NathanGSsilva/previsao-de-churn-de-clientes
+- App publicado no Streamlit: https://previsao-de-churn-de-clientes-cqvmgymekvzrrk83gchdng.streamlit.app
+
 ## Integrantes
 
 - Nathan Gabriel da Silva - RA: 2077558
