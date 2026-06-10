@@ -6,7 +6,7 @@ Projeto avaliativo P2 da disciplina, continuando a P1 com melhorias no notebook,
 
 - Notebook no Google Colab: https://colab.research.google.com/drive/1o-zirN4y6HbMgnEoRvQgthzbLdPgmqhG?usp=sharing
 - Repositorio GitHub: https://github.com/NathanGSsilva/previsao-de-churn-de-clientes
-- App publicado no Streamlit: https://previsao-de-churn-de-clientes-cqvmgymekvzrrk83gchdng.streamlit.app
+- App publicado no Streamlit: https://previsao-de-churn-de-clientes-cqvmgvmekvzrrk83gchdng.streamlit.app/
 
 ## Integrantes
 
